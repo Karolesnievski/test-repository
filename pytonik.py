@@ -9,7 +9,7 @@ print("asdasd, asdasdas, adsdadaddd")
 
 print()
 
-#second quest is done, i hope :)
+#third quest is done, i hope :)
 def parametr_required(a, b, c, x = 10, z = 15):
 
     return a + b + c + x + z
