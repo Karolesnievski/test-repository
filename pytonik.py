@@ -9,14 +9,14 @@ f()
 
 
 
-
-a = input("wpisz liczbę: ")
-b = input("wpisz drugą liczbę: ")
-a = int(a)
-b = int(b)
 try:
-    print(a/b)
-except ZeroDivisionError:
-    print("Drugą liczba nie może byc 0.")
+    a = input("podaj liczbe: ")
+    b = input("podaj liczbe drugą: ")
+    a = int("a")
+    b = int("b")
+    print(a / b)
+    print("ok")
+except(ValueError):
+    print("nieprawidoe")
 
-    
+
