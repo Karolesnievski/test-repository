@@ -3,3 +3,8 @@ def f(x):
 
 result = f(10)
 print(result)
+
+
+print("asdasd, asdasdas, adsdadaddd")
+
+print()
