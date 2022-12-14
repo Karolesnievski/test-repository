@@ -3,5 +3,5 @@ def first_quest(x):
 result = first_quest(10)
 print(result)
 
-def second_quest(asdas, super, asdsada):
+def second_quest(asda):
     print(second_quest)
