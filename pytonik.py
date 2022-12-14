@@ -3,5 +3,6 @@ def first_quest(x):
 result = first_quest(10)
 print(result)
 
-def second_quest(asda):
-    print(second_quest)
+def second_quest(string):
+    print(string)
+second_quest("warior")
