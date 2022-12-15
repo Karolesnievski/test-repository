@@ -1,4 +1,4 @@
-def functiones(x):
+def qqq(x):
     return x ** 2
-    functiones(result)
-    result(10)
+    print(qqq(15))
+    
