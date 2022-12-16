@@ -1,4 +1,5 @@
-def qqq(x):
+# 1
+def firstt(x):
     return x ** 2
-    print(qqq(15))
-    
+print(firstt(8))
+
