@@ -8,4 +8,13 @@ def second():
     print("asdsa", "adsasda", "asdasgffg")
 second()
 
-# 3
+# 4 
+def fourth(x):
+    return x / 2
+def multi(x):
+    return x * 4
+y = fourth(1)
+z = multi(y)
+print(z)
+
+
