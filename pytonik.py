@@ -1,38 +1,44 @@
 # 1
-def firstt(x):
-
+def abc(x):
     return x ** 2
-print(firstt(8))
+print(abc(10))
 
 # 2
-def second():
-    print("asdsa", "adsasda", "asdasgffg")
-second()
+def bca(string):
+    print(string)
+bca("dasdasda")
 
-#3
-def hihihi(z, x, c, a = 100, s = 250):
-    return z + x + c + a + s
-result = hihihi(1, 1, 1)
-print(result)
+# 3
+def three(a, b, c, d = 15, e = 151):
+    return a + b + b + 15 + 151
 
+print(three(1, 1, 1))
 
-# 4 
-def fourth(x):
+# 4
+def qwe(x):
     return x / 2
-def multi(x):
+def ewq(x):
     return x * 4
-y = fourth(1)
-z = multi(y)
-print(z)
-
-# 5
-def conv(string):
-    try: 
-       return float(string)
-    except ValueError:
-        print("nain")
-c = conv("55.0")
+z = qwe(1)
+c = ewq(z)
 print(c)
 
 
+# 4
+def num1(string):
+    try:
+        return(float(string))
+    except ValueError:
+        print("ogar!!")
+c = num1("55.0")
+print(c)
 
+# 1A
+def convert(string):
+    try:
+        return float(string)
+    except ValueError:
+        print("Nie można skonwertować łańcucha na liczę zmiennoprzecinkową.")
+
+c = convert("55.0")
+print(c)
